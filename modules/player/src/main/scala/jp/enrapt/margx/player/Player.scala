@@ -28,6 +28,14 @@ class Player extends Actor {
     2
   }
 
+  def doSomethingOnSuccess(i: Int) {
+
+  }
+
+  def doSomethingOnFailure(err: Throwable) {
+
+  }
+
   def receive = {
 
     case _ =>
